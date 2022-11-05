@@ -1,2 +1,2 @@
--- print the movies which released after 2018
-SELECT title FROM movies WHERE year >= 2018 ORDER BY 1 ASC;
+-- print longest 5 songs
+SELECT name FROM songs ORDER BY duration_ms DESC LIMIT 5;
